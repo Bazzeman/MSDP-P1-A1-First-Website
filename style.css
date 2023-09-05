@@ -4,6 +4,34 @@
 }
 
 :root {
-    --primary-color: #FFFFFF;
-    --secondary-color: #000000;
+    --primary-color: #E70004;
+    --secondary-color: #0F171A;
+    --tertairy-color: #0D1215;
+    --quaternary-color: #333740;
+
+    --text-color: #FFFFFF;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: var(--tertairy-color);
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+}
+
+.navbar li:not(:first-child) {
+    margin-left: 25px;
+}
+
+.navbar img {
+    width: 70px;
+}
+
+.navbar a {
+    color: var(--text-color);
+    text-decoration: none;
 }

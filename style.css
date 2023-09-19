@@ -10,32 +10,23 @@
     --secondary-section-color: #464041;
 }
 
-/* width */
 ::-webkit-scrollbar {
     width: 10px;
     background: var(--secondary-color);
   }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px var(--secondary-color); 
-    border-radius: 10px;
-  }
    
-  /* Handle */
   ::-webkit-scrollbar-thumb {
     background: var(--tertiary-color); 
-    border-radius: 10px;
   }
   
-  /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #b30000; 
+    background: var(--primary-color); 
   }
 
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -111,7 +102,7 @@ span {
 }
 
 .header p {
-    padding-top: 700px;
+    padding: 750px 100px 0 100px;
 }
 
 .hobbies {
